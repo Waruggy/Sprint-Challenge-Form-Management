@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Route, Link} from 'react-router-dom';
 import { axiosWithAuth } from './axiosWithAuth';
+import AddUser from './AddUser';
 
 const UsersList = (props) => {
     const [users, setUsers] = useState([]);
@@ -15,7 +16,7 @@ const UsersList = (props) => {
 
             {users.map(user => {
                 return (
-                <div className="friend">
+                <div className="user">
                     {user.username}
                     {user.password}
                 </div>
