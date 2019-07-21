@@ -7,7 +7,7 @@ const UsersList = (props) => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axiosWithAuth().get('http://localhost:6000/api/restricted/data')
+        axiosWithAuth().get('http://localhost:5000/api/restricted/data')
             .then(res => setUsers(res.data))
             .catch(err => console.log(err))
     }, [])

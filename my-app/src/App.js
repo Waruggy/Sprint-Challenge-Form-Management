@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <h1>Registration Form</h1>
-      <Route path='/registration' component={Nav} />
-      <Route exact path='/registration' component={RegistrationForm} />
+      <Route path='/register' component={Nav} />
+      <Route exact path='/register' component={RegistrationForm} />
       <ProtectedRoute path='/users' component={UsersList} />
     </div>
   );
