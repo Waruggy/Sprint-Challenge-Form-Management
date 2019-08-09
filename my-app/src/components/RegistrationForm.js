@@ -1,5 +1,4 @@
 import React from 'react'; 
-import ReactDOM from "react-dom";
 import { withFormik, Form, Field } from "formik";
 import * as Yup from "yup";
 import { axiosWithAuth } from './axiosWithAuth';
@@ -33,7 +32,7 @@ const formikRegistrationForm = withFormik({
             .required("Name is required")
             .min(3, "Name must be at least three characters long"),
         password: Yup.string()
-            .min(8, "Password must be at least 8 characters")
+            .min(8, "Password must be at least eight characters long")
             .required("Password is required"),
     }),
     

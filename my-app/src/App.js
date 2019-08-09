@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import RegistrationForm from './components/RegistrationForm';
 import UsersList from './components/UsersList';
-import {Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import {ProtectedRoute} from './components/ProtectedRoute';
 import 'semantic-ui-css/semantic.min.css';
 import Nav from './components/Nav';
