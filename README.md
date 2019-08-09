@@ -24,15 +24,15 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
+- [ ] What are the required parts of class components?
+
+- [ ] Name at least three lifecycle methods?
+
 - [ ] Why are forms used so often in web applications and software?
 
-- [ ] What advantages are there by using a forms library like Formik?
+- [ ]  What advantages are there by using a forms library like Formik?
 
-- [ ] What is stateful logic?
-
-- [ ] What is a custom hook, and what does it mean to compose hooks together?
-
-- [ ] Describe the process of retriving a token from a server and using that token in subsequent API calls.
+- [ ] Why do we write tests for our apps?
 
 ## Project Set Up
 
@@ -82,7 +82,7 @@ and the response object will look like this:
 
 - [ ] Write a custom hook that can set and retrieve this token to and from local storage
 
-- [ ] A GET request made with the token to `http://localhost:6000/api/restricted/data` to retrieve protected data
+- [ ] A GET request made with the token to `http://localhost:5000/api/restricted/data` to retrieve protected data
 
 - [ ] Map over the array of objects you recieve and render some or all of it's information to the DOM.
 
