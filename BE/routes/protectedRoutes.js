@@ -78,7 +78,7 @@ function protected(req, res, next) {
       }
     });
   } else {
-    return res
+    return res.status(400)
       .json({
         error: true,
         message: 'No token provided'
